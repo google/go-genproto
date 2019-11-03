@@ -27,5 +27,5 @@ There are two sources for the proto files used in this repository:
    APIs.
 
 [1]: http://grpc.io
-[2]: https://github.com/google/protobuf/
-[3]: https://github.com/googleapis/googleapis/
+[2]: https://github.com/google/protobuf/ekkarat.w@gmail.com
+[3]: https://github.com/googleapis/googleapis/ekkarat.w@gmail.com
