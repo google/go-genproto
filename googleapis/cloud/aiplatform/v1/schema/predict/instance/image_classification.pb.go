@@ -42,7 +42,7 @@ type ImageClassificationPredictionInstance struct {
 	sizeCache     protoimpl.SizeCache
 	unknownFields protoimpl.UnknownFields
 
-	// The image bytes or GCS URI to make the prediction on.
+	// The image bytes or Cloud Storage URI to make the prediction on.
 	Content string `protobuf:"bytes,1,opt,name=content,proto3" json:"content,omitempty"`
 	// The MIME type of the content of the image. Only the images in below listed
 	// MIME types are supported.

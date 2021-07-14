@@ -49,14 +49,14 @@ type VideoClassificationPredictionParams struct {
 	// predictions per instance. If this number is very high, the Model may return
 	// fewer predictions. Default value is 10,000.
 	MaxPredictions int32 `protobuf:"varint,2,opt,name=max_predictions,json=maxPredictions,proto3" json:"max_predictions,omitempty"`
-	// Set to true to request segment-level classification. AI Platform returns
+	// Set to true to request segment-level classification. Vertex AI returns
 	// labels and their confidence scores for the entire time segment of the
 	// video that user specified in the input instance.
 	// Default value is true
 	SegmentClassification bool `protobuf:"varint,3,opt,name=segment_classification,json=segmentClassification,proto3" json:"segment_classification,omitempty"`
-	// Set to true to request shot-level classification. AI Platform determines
+	// Set to true to request shot-level classification. Vertex AI determines
 	// the boundaries for each camera shot in the entire time segment of the
-	// video that user specified in the input instance. AI Platform then
+	// video that user specified in the input instance. Vertex AI then
 	// returns labels and their confidence scores for each detected shot, along
 	// with the start and end time of the shot.
 	// WARNING: Model evaluation is not done for this classification type,
@@ -65,7 +65,7 @@ type VideoClassificationPredictionParams struct {
 	// Default value is false
 	ShotClassification bool `protobuf:"varint,4,opt,name=shot_classification,json=shotClassification,proto3" json:"shot_classification,omitempty"`
 	// Set to true to request classification for a video at one-second intervals.
-	// AI Platform returns labels and their confidence scores for each second of
+	// Vertex AI returns labels and their confidence scores for each second of
 	// the entire time segment of the video that user specified in the input
 	// WARNING: Model evaluation is not done for this classification type, the
 	// quality of it depends on the training data, but there are no metrics

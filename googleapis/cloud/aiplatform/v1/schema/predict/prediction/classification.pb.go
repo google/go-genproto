@@ -42,8 +42,7 @@ type ClassificationPredictionResult struct {
 	sizeCache     protoimpl.SizeCache
 	unknownFields protoimpl.UnknownFields
 
-	// The resource IDs of the AnnotationSpecs that had been identified, ordered
-	// by the confidence score descendingly.
+	// The resource IDs of the AnnotationSpecs that had been identified.
 	Ids []int64 `protobuf:"varint,1,rep,packed,name=ids,proto3" json:"ids,omitempty"`
 	// The display names of the AnnotationSpecs that had been identified, order
 	// matches the IDs.

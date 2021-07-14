@@ -50,7 +50,7 @@ type TextExtractionPredictionInstance struct {
 	MimeType string `protobuf:"bytes,2,opt,name=mime_type,json=mimeType,proto3" json:"mime_type,omitempty"`
 	// This field is only used for batch prediction. If a key is provided, the
 	// batch prediction result will by mapped to this key. If omitted, then the
-	// batch prediction result will contain the entire input instance. AI Platform
+	// batch prediction result will contain the entire input instance. Vertex AI
 	// will not check if keys in the request are duplicates, so it is up to the
 	// caller to ensure the keys are unique.
 	Key string `protobuf:"bytes,3,opt,name=key,proto3" json:"key,omitempty"`
