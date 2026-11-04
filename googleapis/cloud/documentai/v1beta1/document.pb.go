@@ -2253,31 +2253,31 @@ var file_google_cloud_documentai_v1beta1_document_proto_msgTypes = make([]protoi
 var file_google_cloud_documentai_v1beta1_document_proto_goTypes = []interface{}{
 	(Document_Page_Layout_Orientation)(0),       // 0: google.cloud.documentai.v1beta1.Document.Page.Layout.Orientation
 	(Document_Page_Token_DetectedBreak_Type)(0), // 1: google.cloud.documentai.v1beta1.Document.Page.Token.DetectedBreak.Type
-	(*Document)(nil),                            // 2: google.cloud.documentai.v1beta1.Document
-	(*Document_ShardInfo)(nil),                  // 3: google.cloud.documentai.v1beta1.Document.ShardInfo
-	(*Document_Style)(nil),                      // 4: google.cloud.documentai.v1beta1.Document.Style
-	(*Document_Page)(nil),                       // 5: google.cloud.documentai.v1beta1.Document.Page
-	(*Document_Entity)(nil),                     // 6: google.cloud.documentai.v1beta1.Document.Entity
-	(*Document_EntityRelation)(nil),             // 7: google.cloud.documentai.v1beta1.Document.EntityRelation
-	(*Document_TextAnchor)(nil),                 // 8: google.cloud.documentai.v1beta1.Document.TextAnchor
-	(*Document_Style_FontSize)(nil),             // 9: google.cloud.documentai.v1beta1.Document.Style.FontSize
-	(*Document_Page_Dimension)(nil),             // 10: google.cloud.documentai.v1beta1.Document.Page.Dimension
-	(*Document_Page_Layout)(nil),                // 11: google.cloud.documentai.v1beta1.Document.Page.Layout
-	(*Document_Page_Block)(nil),                 // 12: google.cloud.documentai.v1beta1.Document.Page.Block
-	(*Document_Page_Paragraph)(nil),             // 13: google.cloud.documentai.v1beta1.Document.Page.Paragraph
-	(*Document_Page_Line)(nil),                  // 14: google.cloud.documentai.v1beta1.Document.Page.Line
-	(*Document_Page_Token)(nil),                 // 15: google.cloud.documentai.v1beta1.Document.Page.Token
-	(*Document_Page_VisualElement)(nil),         // 16: google.cloud.documentai.v1beta1.Document.Page.VisualElement
-	(*Document_Page_Table)(nil),                 // 17: google.cloud.documentai.v1beta1.Document.Page.Table
-	(*Document_Page_FormField)(nil),             // 18: google.cloud.documentai.v1beta1.Document.Page.FormField
-	(*Document_Page_DetectedLanguage)(nil),      // 19: google.cloud.documentai.v1beta1.Document.Page.DetectedLanguage
-	(*Document_Page_Token_DetectedBreak)(nil),   // 20: google.cloud.documentai.v1beta1.Document.Page.Token.DetectedBreak
-	(*Document_Page_Table_TableRow)(nil),        // 21: google.cloud.documentai.v1beta1.Document.Page.Table.TableRow
-	(*Document_Page_Table_TableCell)(nil),       // 22: google.cloud.documentai.v1beta1.Document.Page.Table.TableCell
-	(*Document_TextAnchor_TextSegment)(nil),     // 23: google.cloud.documentai.v1beta1.Document.TextAnchor.TextSegment
-	(*status.Status)(nil),                       // 24: google.rpc.Status
-	(*color.Color)(nil),                         // 25: google.type.Color
-	(*BoundingPoly)(nil),                        // 26: google.cloud.documentai.v1beta1.BoundingPoly
+	(*Document)(nil),                          // 2: google.cloud.documentai.v1beta1.Document
+	(*Document_ShardInfo)(nil),                // 3: google.cloud.documentai.v1beta1.Document.ShardInfo
+	(*Document_Style)(nil),                    // 4: google.cloud.documentai.v1beta1.Document.Style
+	(*Document_Page)(nil),                     // 5: google.cloud.documentai.v1beta1.Document.Page
+	(*Document_Entity)(nil),                   // 6: google.cloud.documentai.v1beta1.Document.Entity
+	(*Document_EntityRelation)(nil),           // 7: google.cloud.documentai.v1beta1.Document.EntityRelation
+	(*Document_TextAnchor)(nil),               // 8: google.cloud.documentai.v1beta1.Document.TextAnchor
+	(*Document_Style_FontSize)(nil),           // 9: google.cloud.documentai.v1beta1.Document.Style.FontSize
+	(*Document_Page_Dimension)(nil),           // 10: google.cloud.documentai.v1beta1.Document.Page.Dimension
+	(*Document_Page_Layout)(nil),              // 11: google.cloud.documentai.v1beta1.Document.Page.Layout
+	(*Document_Page_Block)(nil),               // 12: google.cloud.documentai.v1beta1.Document.Page.Block
+	(*Document_Page_Paragraph)(nil),           // 13: google.cloud.documentai.v1beta1.Document.Page.Paragraph
+	(*Document_Page_Line)(nil),                // 14: google.cloud.documentai.v1beta1.Document.Page.Line
+	(*Document_Page_Token)(nil),               // 15: google.cloud.documentai.v1beta1.Document.Page.Token
+	(*Document_Page_VisualElement)(nil),       // 16: google.cloud.documentai.v1beta1.Document.Page.VisualElement
+	(*Document_Page_Table)(nil),               // 17: google.cloud.documentai.v1beta1.Document.Page.Table
+	(*Document_Page_FormField)(nil),           // 18: google.cloud.documentai.v1beta1.Document.Page.FormField
+	(*Document_Page_DetectedLanguage)(nil),    // 19: google.cloud.documentai.v1beta1.Document.Page.DetectedLanguage
+	(*Document_Page_Token_DetectedBreak)(nil), // 20: google.cloud.documentai.v1beta1.Document.Page.Token.DetectedBreak
+	(*Document_Page_Table_TableRow)(nil),      // 21: google.cloud.documentai.v1beta1.Document.Page.Table.TableRow
+	(*Document_Page_Table_TableCell)(nil),     // 22: google.cloud.documentai.v1beta1.Document.Page.Table.TableCell
+	(*Document_TextAnchor_TextSegment)(nil),   // 23: google.cloud.documentai.v1beta1.Document.TextAnchor.TextSegment
+	(*status.Status)(nil),                     // 24: google.rpc.Status
+	(*color.Color)(nil),                       // 25: google.type.Color
+	(*BoundingPoly)(nil),                      // 26: google.cloud.documentai.v1beta1.BoundingPoly
 }
 var file_google_cloud_documentai_v1beta1_document_proto_depIdxs = []int32{
 	4,  // 0: google.cloud.documentai.v1beta1.Document.text_styles:type_name -> google.cloud.documentai.v1beta1.Document.Style
